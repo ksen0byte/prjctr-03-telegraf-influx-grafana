@@ -1,4 +1,4 @@
-# Project Name
+# Example Docker Compose project for Telegraf, InfluxDB, Grafana, MongoDB, and Elasticsearch
 
 ## Overview
 This project is a comprehensive environment that includes a Scala application, MongoDB, Nginx, Elasticsearch, and Telegraf. The system is designed to compile a Scala application into a Docker container and orchestrate the services using Docker Compose.
@@ -63,8 +63,8 @@ You can customize the load test by changing the parameters of the `run_test.sh` 
 My cherry-picked metrics from Scala application, MongoDB, Nginx and Elasticsearch.
 
 ![myBoard-1](screenshots/myboard-1.png)
-![myBoard-2](screenshots/myboard-1.png)
-![myBoard-3](screenshots/myboard-1.png)
+![myBoard-2](screenshots/myboard-2.png)
+![myBoard-3](screenshots/myboard-3.png)
 
 ### Docker Board
 
