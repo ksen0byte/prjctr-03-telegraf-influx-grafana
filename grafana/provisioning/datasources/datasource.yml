@@ -1,0 +1,21 @@
+apiVersion: 1
+
+# list of datasources that should be deleted from the database
+deleteDatasources:
+  - name: Influxdb
+    orgId: 1
+
+datasources:
+  - name: InfluxDB-1
+    uid: P2EF30AEA5230F61C
+    type: influxdb
+    access: proxy
+    url: http://influxdb:8086
+    isDefault: true
+    jsonData:
+      version: Flux
+      organization: org
+      defaultBucket: bucket
+      tlsSkipVerify: true
+    secureJsonData:
+      token: VJEFSpiu1pUN38unLpIyjyFIYnrt3cyIt9twF8VgffNihQsN2b5ghS3w6FLkZaqvEmmhxYaU9xBuJBX1exDFvQ==
